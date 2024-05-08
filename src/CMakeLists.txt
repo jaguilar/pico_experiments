@@ -28,6 +28,7 @@ function(add_pico_executable name)
 endfunction()
 
 add_subdirectory(blink)
-add_subdirectory(tcp_echo)
 add_subdirectory(hello_mqtt)
+add_subdirectory(pico_tests)
 add_subdirectory(sun)
+add_subdirectory(tcp_echo)
